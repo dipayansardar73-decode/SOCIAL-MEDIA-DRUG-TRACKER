@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Lock, Unlock, RefreshCw, Key, FileCode } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const encryptedText = `X8k#92!Ld^01... [ENCRYPTED BLOCK] ... qPv@55$Km*99
 4jZ&11!Op(33... [SALTED HASH] ... rTy#22^Wq)88
